@@ -45,9 +45,9 @@ This study described the development of a device, which utilizes an STM32 single
 The block diagram of the hardware connection is shown in Figure 1. The function and connection type of each components are described in Table 1.
 
 <center><img src="/pictures/1_Hardware_Block_Diagram.png"></center>
-<center>Figure 1: Block diagram of hardware connection.</center><br />
+<center><br>Figure 1: Block diagram of hardware connection.</center><br />
 
-<center>Table 1: Function and connection type of components used.</center><br />
+<center><br>Table 1: Function and connection type of components used.</center><br />
 <center>
 
 | Component  | Connection Type | Function |
@@ -67,7 +67,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 - Configure push button interrupt to wake up STM32 to trigger Firebase Realtime Database to send emergency push notification to mobile application.
 
 <center><img src="/pictures/2_Software_SleepMode_Block_Diagram.png"></center>
-<center>Figure 2: Block diagram of sleep and wake up mode software algorithm.</center><br />
+<center><br>Figure 2: Block diagram of sleep and wake up mode software algorithm.</center><br />
 
 **4.2 TinyML model preparation for inferencing**
 - Accelerometer data will be used to determine if the person are stationary, walking or running.
@@ -77,7 +77,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 - X-CUBE-AI supports models trained with TensorFlow, Keras, PyTorch, Caffe and others. The model file needs to be in Keras (.h5), TensorFlow Lite (.tflite), or ONNX (.onnx) format.
 
 <center><img src="/pictures/3_Software_TinyML_Block_Diagram.png"></center>
-<center>Figure 3: Block diagram of TinyML software algorithm.</center><br />
+<center><br>Figure 3: Block diagram of TinyML software algorithm.</center><br />
 
 **4.3 Google Firebase Realtime Database**
 - Cloud database to store sensor data and send push notification to mobile application.
@@ -88,7 +88,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 
 ## Appendix A: Bill of Materials (BOM)
 
-<center>Table 2: Bill of Materials (BOM).</center><br />
+<center><br>Table 2: Bill of Materials (BOM).</center><br />
 
 <center>
 
