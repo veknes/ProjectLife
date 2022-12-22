@@ -69,6 +69,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 <center><img src="/pictures/2_Software_SleepMode_Block_Diagram.png"></center>
 <center>Figure 2: Block diagram of sleep and wake up mode software algorithm.</center><br/>
 
+
 **4.2 TinyML model preparation for inferencing**
 - Accelerometer data will be used to determine if the person are stationary, walking or running.
 - Oximeter and heart beat rate data will be used to determine if it is in stable level or not.
@@ -78,6 +79,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 
 <center><img src="/pictures/3_Software_TinyML_Block_Diagram.png"></center>
 <center>Figure 3: Block diagram of TinyML software algorithm.</center><br />
+
 
 **4.3 Google Firebase Realtime Database**
 - Cloud database to store sensor data and send push notification to mobile application.
