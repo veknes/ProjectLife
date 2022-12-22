@@ -51,7 +51,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 <center>
 
 | Component  | Connection Type | Function |
-| :-------: | :------: |  
+| :-------: | :------: | :------: |
 | 3-Axis Accelerometer | I2C | Provides acceleration data (the rate of change of velocity) for 3 axis |
 | Oximeter and Heart Rate Sensor | I2C | Provides blood oxygen level and heart rate data |
 | Push Button | INT | User input for emergency purpose | 
@@ -93,7 +93,7 @@ The block diagram of the hardware connection is shown in Figure 1. The function 
 <center>
 
 | Component  | Unit | Cost / Unit (RM) |
-| :-------: | :------: | 
+| :-------: | :------: | :------: |
 | STM32F407VET6 Development Board | 1 | 70 |
 | ST-Link V2 USB | 1 | 20 |
 | 3-Axis Accelerometer | 1 | 10 |
