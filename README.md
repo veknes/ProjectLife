@@ -63,7 +63,7 @@ Figure 1: Block diagram of hardware connection.
 
 ### 5.0 Algorithm (Software)
 
-**4.1 Implementing low power or sleep mode**
+**5.1 Implementing low power or sleep mode**
 - Configure the RTC to wake up the STM32 periodically from low power modes to read sensors and upload collected data to Firebase Realtime Database.
 - Configure push button interrupt to wake up STM32 to trigger Firebase Realtime Database to send emergency push notification to mobile application.
 
@@ -71,7 +71,7 @@ Figure 1: Block diagram of hardware connection.
 
 Figure 2: Block diagram of sleep and wake up mode software algorithm.
 
-**4.2 TinyML model preparation for inferencing**
+**5.2 TinyML model preparation for inferencing**
 - Accelerometer data will be used to determine if the person are stationary, walking or running.
 - Oximeter and heart beat rate data will be used to determine if it is in stable level or not.
 - Preparing dataset for two senarios above to train model with Google Colab or utilizing pre-trained model (if available).
@@ -82,10 +82,10 @@ Figure 2: Block diagram of sleep and wake up mode software algorithm.
 
 Figure 3: Block diagram of TinyML software algorithm.
 
-**4.3 Google Firebase Realtime Database**
+**5.3 Google Firebase Realtime Database**
 - Cloud database to store sensor data and send push notification to mobile application.
 
-**4.4 Android Application**
+**5.4 Android Application**
 - Developing a simple android application for monitoring data from Firebase Realtime Database and to receive push notification.
 - Drag and drop based mobile application development such as MIT App Inventor or others.
 
